@@ -13,7 +13,6 @@ const services = [
 const App = () => {
   return (
     <div>
-    
     <Navbar color='dark' background='purple' dark expand="md">
 
      <Container>
@@ -35,6 +34,7 @@ const App = () => {
      
     </Container>
     </Navbar>
+    
     <Container>
       {/* Landing Section */}
       <section id='home' className="landing-section my-5">
@@ -71,9 +71,6 @@ const App = () => {
         </Row>
       </section>
     </Container>
-
-  
-
   </div>
   );
 };
