@@ -71,6 +71,18 @@ const App = () => {
         </Row>
       </section>
     </Container>
+       {/* Footer */}
+       <footer className="footer text-center py-4">
+       <Container>
+         <Row>
+           <Col>
+             <p>&copy; 2024 Handyman Services. All rights reserved.</p>
+             <p>Email: <a href="mailto:info@handymanservices.com">info@handymanservices.com</a></p>
+             <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+           </Col>
+         </Row>
+       </Container>
+     </footer>
   </div>
   );
 };
